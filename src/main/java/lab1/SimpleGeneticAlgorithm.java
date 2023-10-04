@@ -1,8 +1,5 @@
 package lab1;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class SimpleGeneticAlgorithm {
     static private final double lowBorder = -10.;
     static private final double highBorder = 10.;
@@ -10,7 +7,7 @@ public class SimpleGeneticAlgorithm {
     private final double realMaxValue = 10.6869;
 
     private Population population;
-    private GeneticOperators operators;
+    private final GeneticOperators operators;
     private final int maxGenerationNumber;
     private double obtainedMaxValue;
 
